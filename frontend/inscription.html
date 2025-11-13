@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription à une formation</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Catalogue</a>
+        <a href="inscription.html">Inscription</a>
+        <a href="profil.html">Profil</a>
+        <a href="dashboard.html">Dashboard</a>
+    </nav>
+    <hr />
+
+    <main>
+        <h1>Inscription à une formation</h1>
+        <form id="formulaireInscription">
+            <label for="selectApprenant">Choisir un apprenant :</label>
+            <select id="selectApprenant" required></select>
+
+            <label for="selectFormation">Choisir une formation :</label>
+            <select id="selectFormation" required></select>
+
+            <button type="submit" class="btn">S'inscrire</button>
+        </form>
+
+        <p id="messageInscription"></p>
+    </main>
+
+    <script src="js/main.js"></script>
+    <script src="js/inscription.js"></script>
+</body>
+
+</html>

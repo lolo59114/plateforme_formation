@@ -1,0 +1,57 @@
+{
+  "formations": [
+    {
+      "id": "1",
+      "titre": "Angular avancé",
+      "categorie": "Développement",
+      "duree": "3 jours",
+      "formateurId": 1
+    },
+    {
+      "id": "2",
+      "titre": "Introduction à SCRUM",
+      "categorie": "Sécurité",
+      "duree": "2 jours",
+      "formateurId": 2
+    }
+  ],
+  "formateurs": [
+    {
+      "id": "1",
+      "nom": "Welid",
+      "expertise": "Angular / TypeScript"
+    },
+    {
+      "id": "2",
+      "nom": "Nabil",
+      "expertise": "SCRUM"
+    }
+  ],
+  "apprenants": [
+    {
+      "nom": "Loic VI",
+      "email": "loic@exemple.com",
+      "id": "1"
+    }
+  ],
+  "inscriptions": [
+    {
+      "id": "ac22",
+      "apprenantId": 1,
+      "formationId": 2,
+      "dateInscription": "2025-11-13"
+    },
+    {
+      "id": "1617",
+      "apprenantId": 2,
+      "formationId": 1,
+      "dateInscription": "2025-11-13"
+    },
+    {
+      "id": "67ec",
+      "apprenantId": 1,
+      "formationId": 1,
+      "dateInscription": "2025-11-13"
+    }
+  ]
+}
