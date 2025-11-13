@@ -15,7 +15,7 @@ Il utilise **HTML, CSS, JavaScript** et **JSON Server** pour simuler une API RES
 ## Cloner le projet
 
 ```bash
-git clone https://github.com/ton-compte/nom-du-depot.git
+git clone https://github.com/lolo59114/plateforme_formation.git
 cd plateforme-formation
 ```
 ## Installer JSON Server si ce n’est pas déjà fait :
